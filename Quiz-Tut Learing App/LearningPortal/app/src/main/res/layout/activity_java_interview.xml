@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_course_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.learningportal.CourseContent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="40dp"
+            android:textAllCaps="true"
+            android:textColor="#80ff00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topics"
+            android:id="@+id/CC"
+            />
+        <TextView
+            android:textSize="40dp"
+            android:textAllCaps="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/CC"
+
+            android:id="@+id/c"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="1. Oops "
+            android:layout_gravity="fill"
+            android:id="@+id/c1"
+            android:textSize="20dp"
+            android:textAllCaps="true"
+
+            android:layout_below="@+id/c"
+            android:textColor="#0040ff"
+            android:onClick="pdhlo"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="2. Threading "
+            android:textColor="#0040ff"
+            android:id="@+id/c2"
+            android:layout_below="@+id/c1"
+
+            android:textSize="20dp"
+            android:textAllCaps="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Collection"
+            android:id="@+id/c3"
+            android:layout_below="@+id/c2"
+            android:textSize="20dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. JDBC"
+            android:id="@+id/c4"
+            android:layout_below="@+id/c3"
+            android:textSize="20dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+
+            />
+
+    </RelativeLayout>
+
+
+</ScrollView>

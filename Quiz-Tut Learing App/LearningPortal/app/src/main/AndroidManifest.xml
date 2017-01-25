@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.learningportal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splashscreen" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+</activity>>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Course" />
+        <activity
+            android:name=".Registers"
+            android:label="@string/app_name" />
+        <activity android:name=".Question1" />
+        >
+        <activity android:name=".Question2" />
+        <activity android:name=".quiz" />
+        <activity android:name=".Question3" />
+        <activity android:name=".Question4" />
+        <activity android:name=".Question5" />
+        <activity android:name=".Question6" />
+        <activity android:name=".Question7" />
+        <activity android:name=".Question8" />
+        <activity android:name=".Question9" />
+        <activity android:name=".Question10" />
+        <activity android:name=".FragementAdapter" />
+        <activity android:name=".InterView" />
+        <activity android:name=".Result" />
+        <activity android:name=".JavaDetail" />
+        <activity
+            android:name=".MainActivity"
+            android:label="QuizTut Learning"
+            android:lockTaskMode="always"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CourseContent" />
+        <activity android:name=".BigDataOverview" />
+        <activity android:name=".QuizActivity">
+        </activity>
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".Article" />
+        <activity android:name=".About" />
+        <activity android:name=".javaInterview" />
+        <activity android:name=".hadoopInterview" />
+        <activity android:name=".oops" />
+        <activity android:name=".threads" />
+        <activity android:name=".bigdata" />
+        <activity android:name=".hdfs"></activity>
+    </application>
+
+</manifest>

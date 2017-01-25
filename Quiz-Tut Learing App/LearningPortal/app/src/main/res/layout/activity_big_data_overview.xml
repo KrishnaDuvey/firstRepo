@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_big_data_overview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.learningportal.BigDataOverview">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/white"
+       android:weightSum="1">
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:text="BIG DATA OVERVIEW"
+           android:textStyle="bold"
+           android:textSize="20dp"
+           android:textColor="@color/colorPrimary"
+           android:id="@+id/heading"
+
+           />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/colorPrimary"
+           android:textSize="15dp"
+           android:textStyle="bold"
+           android:text="What is Big Data?"
+
+
+           />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorPrimary"
+
+    android:text="Big data means really a big data, it is a collection of large datasets that cannot be processed using traditional computing techniques. Big data is not merely a data, rather it has become a complete subject, which involves various tools, technqiues and frameworks.
+What Comes Under Big Data?
+"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/colorPrimary"
+           android:text="Big data involves the data produced by different devices and applications. Given below are some of the fields that come under the umbrella of Big Data.
+       •	Black Box Data : It is a component of helicopter, airplanes, and jets, etc. It captures voices of the flight crew, recordings of microphones and earphones, and the performance information of the aircraft.
+       •	Social Media Data : Social media such as Facebook and Twitter hold information and the views posted by millions of people across the globe.
+       •	Stock Exchange Data : The stock exchange data holds information about the ‘buy’ and ‘sell’ decisions made on a share of different companies made by the customers.
+       •	Power Grid Data : The power grid data holds information consumed by a particular node with respect to a base station.
+       •	Transport Data : Transport data includes model, capacity, distance and availability of a vehicle.
+       •	Search Engine Data : Search engines retrieve lots of data from different databases."
+           />
+
+
+
+
+       <ImageView
+           android:id="@+id/imageView1"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:paddingTop="@dimen/nav_header_vertical_spacing"
+           android:src="@drawable/bigdata11"
+           />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Thus Big Data includes huge volume, high velocity, and extensible variety of data. The data in it will be of three types.
+•	Structured data : Relational data.
+•	Semi Structured data : XML data.
+•	Unstructured data : Word, PDF, Text, Media Logs.
+Benefits of Big Data
+Big data is really critical to our life and its emerging as one of the most important technologies in modern world. Follow are just few benefits which are very much known to all of us:
+•	Using the information kept in the social network like Facebook, the marketing agencies are learning about the response for their campaigns, promotions, and other advertising mediums.
+•	Using the information in the social media like preferences and product perception of their consumers, product companies and retail organizations are planning their production.
+•	Using the data regarding the previous medical history of patients, hospitals are providing better and quick service.
+ "
+        />
+
+
+   </LinearLayout>
+
+
+
+</ScrollView>
